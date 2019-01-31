@@ -244,6 +244,8 @@ body {
 	filter: grayscale(100);
 	padding: 50px 0px;
 }
+
+
 @media (min-width:768px){	
 	.galerija{width:80%;}
 }
@@ -585,7 +587,10 @@ body {
 
 
 
-
+.sve{
+	margin:0px;
+	padding: 0px;
+}
 
 .column {
   float: left;
@@ -605,9 +610,7 @@ line-height:30px;
 margin-bottom: 40px;
 }
 
-.fas{
-	letter-spacing: 10px;
-}
+
 
 .b1{
 	background: #E0E0E0;
@@ -622,34 +625,55 @@ margin-bottom: 40px;
 		background: #56B3A6;
 
 }
+.b2{
+	background: #F0F0F0;
+}
+
 .b3:hover{
 		background: #56B3A6;
 
 }
 
-
-
-.b2{
-	background: #F0F0F0;
-}
-
-
 .b3{
 	background: #E0E0E0;
 }
 
-@media (min-width:576px){
-	.cjelina{
-	display: inline !important;
-}
-}
-
 .containerTab {
-  padding: 20px;
+  padding: 40px;
+  margin:auto;
   color: white;
   background: #56B3A6;
-  width: 100%;
+	transition: 0.4s ease;
+	margin-bottom:50px;
+
 }
+
+@media (max-width:576px){
+	.column{
+	display: block !important;
+	font-size:14px;
+	padding:12px;
+	font-weight:600;
+	}
+	
+	.containerTab{
+	width: 100%;
+  padding: 20px;
+  margin:0;
+  color: white;
+  background: #56B3A6;
+	transition: 0.4s ease;}
+	
+	.containerTab p{
+		font-size: 12px;
+		line-height:20px;
+		margin-bottom:10px;
+	}
+
+}
+	
+}
+
 
 /* Clear floats after the columns */
 .row:after {
