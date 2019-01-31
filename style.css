@@ -585,10 +585,6 @@ body {
 
 
 
-.vjestine{
-	width: 80%;
-	margin: auto;
-}
 
 
 .column {
@@ -643,20 +639,9 @@ margin-bottom: 40px;
 }
 
 @media (min-width:576px){
-	.column .b1{
-		width:auto;
-		display:block !important;
-	}
-	.column .b2{
-		width:auto;
-		display:block !important;
-
-	}
-	.column .b3{
-		width:auto;
-			display:block !important;
-
-	}
+	.cjelina{
+	display: inline !important;
+}
 }
 
 .containerTab {
