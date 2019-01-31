@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="hr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Moj portfolio</title>
+		<link rel="stylesheet" href="bootstrap/bootstrap.min.css">		
+		<link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+		<link rel="stylesheet" href="lightbox/css/lightbox.css">
+		<link rel="stylesheet" href="socicon/style.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="glavni">			
+			<!-- ************** Zaglavlje / početak ************** -->
+			
+			<!-- ************** Navigacija / početak ************** -->
+			<div class="row navigacija">
+				<div class="col">
+					<div class="hamburger">
+						<span class="fas fa-bars"></span>
+					</div>
+					<ul class="main-menu">
+						<li><a href="index.html">Početna</a></li>
+						<li><a href="o_meni.html">O meni</a></li>
+						<li><a href="moji_radovi.html">Moji radovi</a></li>
+						<li><a href="kontakt.html">Kontakt</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- ************** Navigacija / kraj ************** -->
+
+			<!-- ************** Carousel / početak ************** -->
+			<div class="row zaglavlje">
+				<div class="col">
+					<div id="carouselIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+						
+						<div class="zaglavlje_slika">
+							<!-- ************** Slideovi / početak ************** -->
+							<div class="carousel-item active">
+								<img class="d-block w-100" src="slike/foto4_slider.jpg" alt="Prvi slide">
+							</div>
+														
+							<!-- ************** Slideovi / kraj ************** -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- ************** Carousel / kraj ************** -->
+			<!-- ************** Zaglavlje / kraj ************** -->
+
+			<!-- ************** Društvene mreže / početak ************** -->			
+			<div class="row social-profiles">
+				<div class="col-12">
+					<h1>Profili na društvenim mrežama</h1>
+				</div>
+				<div class="col-md-3 social-profile svijetlo-siva"><p><a href="#"><span class="socicon-facebook"></span></a></p></div>			
+				<div class="col-md-3 social-profile tamno-siva"><p><a href="#"><span class="socicon-twitter"></span></a></p></div>			
+				<div class="col-md-3 social-profile svijetlo-siva"><p><a href="#"><span class="socicon-instagram"></span></a></p></div>
+				<div class="col-md-3 social-profile tamno-siva"><p><a href="#"><span class="socicon-googleplus"></span></a></p></div>
+				<div class="col-md-3 social-profile tamno-siva"><p><a href="#"><span class="socicon-pinterest"></span></a></p></div>		
+				<div class="col-md-3 social-profile svijetlo-siva"><p><a href="#"><span class="socicon-behance"></span></a></p></div>			
+				<div class="col-md-3 social-profile tamno-siva"><p><a href="#"><span class="socicon-linkedin"></span></a></p></div>
+				<div class="col-md-3 social-profile svijetlo-siva"><p><a href="#"><span class="socicon-vimeo"></span></a></p></div>			
+			</div>
+			
+			<!-- ************** Društvene mreže / kraj ************** -->
+			
+			<!-- ************** Kontakt / početak ************** -->
+			<div class="row kontakt">
+				<div class="col-12">
+					<h1>Pošaljite svoje pitanje!</h1>
+				</div>
+				<div class="col-md-6 ">
+					<form action="" method="post">
+						<div class="form-group">							
+							<input type="text" class="form-control" id="name" placeholder="Ime i prezime" required>
+						</div>
+						<div class="form-group">							
+							<input type="text" class="form-control" id="subject"  placeholder="Prezime">
+						</div>	
+						<div class="form-group">							
+							<input type="email" class="form-control" id="e-mail" placeholder="Vaša e-mail adresa" required>
+						</div>
+						
+						<div class="form-group">
+						  <div class="custom-file">
+							<input type="file" class="custom-file-input" id="inputGroupFile02">
+							<label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Dodaj privitak</label>
+						  </div>
+						</div>							
+						
+						<button type="submit" class="btn btn-primary">Pošalji</button>
+					
+				</div>
+				
+				<div class="col-md-6 ">
+					<div class="form-group">
+						<textarea class="form-control" id="message" rows="8" placeholder="Poruka" required></textarea>
+					</div>
+				</div>
+				</form>
+			</div>
+			<!-- ************** Kontakt / kraj ************** -->
+		
+			<!-- ************** Footer / početak ************** -->
+			<div class="row footer">
+				<div class="col">
+					<div class="footer-content">
+						<ul>
+							<li><a href="index.html">Početka</a></li>
+							<li><a href="o_meni.html">O meni</a></li>
+							<li><a href="moji_radovi.html">Moji radovi</a></li>
+							<li><a href="kontakt.html">Kontakt</a></li>
+						</ul>
+						<p>Izradila: Magdalena Krištofić, 2019.</p>
+					</div>
+				</div>
+			</div>
+			<!-- ************** Footer / kraj ************** -->
+		</div>
+		<script src="bootstrap/jquery.min.js"></script>
+		<script src="bootstrap/popper.min.js"></script>
+		<script src="bootstrap/bootstrap.min.js"></script>
+		<script src="lightbox/js/lightbox.js"></script>
+		<script>
+			$('.hamburger').click(function(){
+				$('.main-menu').slideToggle();
+			});
+		</script>
+		<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+	</body>
+</html>
